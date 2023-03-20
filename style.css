@@ -438,3 +438,22 @@ color: #6085EA;
     padding: 38px 20px;
 }
 /* down footer section end  */
+.mainNavbarContainer-2 {
+    background-color: #1f1f1f; /* Black background color */
+    position: fixed; /* Make it stick/fixed */
+    top: -250px; /* Hide the navbar 50 px outside of the top view */
+    width: 100%; /* Full width */
+    transition: top 0.3s; /* Transition effect when sliding down (and up) */
+    z-index: 99999999;
+  }
+  
+  /* Style the navbar links */
+  .mainNavbarContainer-2 a {
+    float: left;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 5px;
+    text-decoration: none;
+  }
+  
