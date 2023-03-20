@@ -44,6 +44,11 @@ body {
     background: url("https://a6e8z9v6.stackpathcdn.com/apzo/mobileapp/wp-content/uploads/sites/7/2019/09/bg-mb-1.jpg");
     background-size: 100% 100%;
 }
+.section-container{
+    width: 87%;
+    margin: 0 auto;
+    padding: 0 15px;
+}
 
 /* icon title start */
 .main-icon-box {
@@ -115,10 +120,11 @@ body {
     font-weight: 500;
     padding: 0 20px 40px 20px;
     color: #FFFFFF;
+    font-family: 'Jost', sans-serif;
 }
 .section-img-P{
     margin: 0;
-    padding: 0 20px 30px 20px;
+    /* padding: 0 20px 30px 20px; */
 }
 .section-img-P img{
     margin: 5px 20px 20px 0;
@@ -126,11 +132,13 @@ body {
 /* section end */
 
 /* Newest Section Start */
+.newest-main-section{
+    padding: 0 20px;
+}
 .newest-section{
     width: 87%;
     margin: 0 auto;
     padding: 0 20px;
-    /* background-color: coral;     */
 }
 .newest-H3{
     font-size: 38px;
@@ -199,11 +207,13 @@ body {
 /* Counter Section Start */
 .main-counter-section{
     padding: 10px 0;
+    height: 150px;
 }
 .counter-section{
     width: 87%;
     margin: 0 auto;
-    padding: 0 20px;    
+    padding: 0 20px;  
+    height: 140px;  
 }
 .counter-container{
     box-shadow: rgba(17, 17, 26, 0.1) 0px 4px 16px, rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 56px;}
@@ -223,6 +233,13 @@ body {
 .counter-write{
     color: #3C73F0;
     font-weight: 700;
+}
+.counter-section-div{
+    position: absolute;
+    right: 155.05px;
+    left: 155.05px;
+    z-index: 9999;
+    border-radius: 15px;
 }
 /* Counter Section End  */
 
@@ -437,17 +454,17 @@ color: #6085EA;
     margin: 0 auto;
     padding: 38px 20px;
 }
-/* down footer section end  */
+/* --------------------------------------------- */
 .mainNavbarContainer-2 {
-    background-color: #1f1f1f; /* Black background color */
-    position: fixed; /* Make it stick/fixed */
-    top: -250px; /* Hide the navbar 50 px outside of the top view */
-    width: 100%; /* Full width */
-    transition: top 0.3s; /* Transition effect when sliding down (and up) */
+    background-color: #1f1f1f;
+    position: fixed; 
+    top: -300px; 
+    width: 100%; 
+    transition: top 0.3s; 
     z-index: 99999999;
   }
   
-  /* Style the navbar links */
+  
   .mainNavbarContainer-2 a {
     float: left;
     display: block;
@@ -457,3 +474,146 @@ color: #6085EA;
     text-decoration: none;
   }
   
+  @media(max-width:1199.98px){
+    .section-container{
+        width: 100%;
+        padding: 0 20px;
+    }
+    .newest-section{
+        width: 100%;
+        padding:0 20px;
+    }
+    .features-section{
+        width: 100%;
+        padding:0 20px; 
+    }
+    .down-counter-section{
+        width: 100%;
+        padding:0 20px; 
+    }
+    .acordion-section{
+        width: 100%;
+        padding: 0 20px;
+    }
+    .pricing-section{
+        width: 100%;
+        padding: 0 20px;
+    }
+    .articles-section{
+        width: 100%;
+        padding: 0 20px;
+    }
+    .footer-section{
+        width: 100%;
+        margin: 0 auto;
+        padding: 0 20px;
+    }
+  }
+  @media(max-width:991.98px){
+    .counter-section-div{
+        position: absolute;
+        right: 140.05px;
+        left: 140.05px;
+        z-index: 9999;
+        border-radius: 25px;
+    }
+    .counter-span-1{
+        font-size: 30px;
+        font-weight: 700;
+    }
+    .counter-span-2{
+        font-size: 30px;
+        font-weight: 700;
+    }
+    .counter-write{
+        color: #3C73F0;
+        font-weight: 700;
+        font-size: 12px;
+    }
+  }
+  @media(max-width:767.98px){
+.firstSection-box{
+    display: none;
+}
+.down-counter-col-4{
+    display: none;
+}
+.newest-section{
+    width: 70%;
+    padding:0 20px;
+}
+.newest-div{
+    margin: 50px 0 0;
+    padding: 0 0 50px;
+}
+.section-H3{
+    font-size: 40px;
+    font-weight: 700;
+    margin: 0;
+    padding: 0 20px 10px 20px;
+    color: #FFFFFF;
+}
+.features-section{
+    width: 70%;
+    padding:0 20px;
+}
+.main-counter-section{
+    padding: 10px 0;
+    height: 1000px;
+}
+.uptated-section{
+    width: 87%;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+.counter-section{
+    width: 70%;
+    margin: 0 auto;
+    padding: 0 20px;  
+    height: 1000px;  
+}
+.counter-span-1{
+    font-size: 48px;
+    font-weight: 700;
+}
+.counter-span-2{
+    font-size: 48px;
+    font-weight: 700;
+}
+.counter-write{
+    color: #3C73F0;
+    font-weight: 700;
+    font-size: 22px;
+}
+.down-counter-section{
+    width: 70%;
+    margin: 0 auto;
+}
+.acordion-section{
+    width: 70%;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+.pricing-section{
+    width: 70%;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+.articles-section{
+    width: 50%;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+.pricing-div{
+    margin-bottom: 48px;
+}
+.footer-section{
+    width: 70%;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+  }
+
+/* modal yapımızın css kodları */
+
+
