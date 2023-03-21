@@ -18,8 +18,10 @@
 </head>
 
 <body>
-    <div style="position: relative">
-        <div style="position: absolute; top: 0; right: 0; left: 0; z-index: 99">
+    <div class="wrapper-container"></div>
+
+    <div  style="position: relative">
+        <div class="header-container" style="position: absolute; top: 0; right: 0; left: 0; z-index: 99">
             <div style="padding-top: 24px" class="icon-container">
                 <div class="main-icon-box d-flex justify-content-end">
                     <div class="icon-box">
@@ -71,7 +73,7 @@
                                             aria-current="page" href="#">Shop</a>
                                     </li>
 
-                                    <div style="margin-left: 10px">
+                                    <div class="header-search-icon" style="margin-left: 10px">
                                         <i style="
                           font-size: 20px;
                           margin: 3px 0 0 25px;
@@ -430,7 +432,6 @@
                                             <div style="border: none" class="accordion-button" data-bs-toggle="collapse"
                                                 data-bs-target="#collapseOne" aria-expanded="true"
                                                 aria-controls="collapseOne">
-                                                <!-- <i class="fa-sharp fa-solid fa-plus"></i> -->
                                                 <i style="margin-right: 16px;color: #353535;font-size: 12px;" class="fa-solid fa-minus"></i>
                                                 Live Video
                                             </div>
@@ -501,7 +502,7 @@
         <div class="main-updated-section">
             <div class="uptated-section">
                 <div class="updated-container">
-                    <div class="row">
+                    <div class="row m-auto">
                         <div class="m-auto col-xxl-5 col-xl-6 col-lg-7 col-md-8  ">
                             <div>
                                 <div style="padding: 0 0 30px;">
@@ -853,22 +854,20 @@
 
 
           <div class="mainNavbarContainer-2">
-            <nav style="padding: 0" class="navbar navbar-expand-lg navbar-light">
-                <div style="padding: 0" class="container-fluid">
+            <nav style="padding: 0;" class="navbar navbar-expand-lg navbar-light">
+                <div style="padding: 0" class="container-fluid secondNavbar">
                     <div class="logo-inner">
                         <a href="">
                             <img src="https://a6e8z9v6.stackpathcdn.com/apzo/mobileapp/wp-content/uploads/sites/7/2019/09/logo-saas.png"
                                 width="68px" alt="" />
                         </a>
                     </div>
-                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                        data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false"
-                        aria-label="Toggle navigation">
-                        <span class="navbar-toggler-icon"></span>
-                    </button>
+                    <div  style="padding: 20px;color: #CCCCCC;">
+                        <i onclick="openSidebar()" style="font-size: 25px;margin-right: 24px;" class="bar-icon-1 fa-solid fa-bars"></i>
+                    </div>
                     <div class="collapse navbar-collapse d-flex justify-content-end" id="navbarNav">
                         <div class="navbar-write-container-1">
-                            <ul class="navbar-nav">
+                            <ul class="navbar-nav secondNavbar-ul">
                                 <li style="padding: 0 18px 0 0" class="nav-item">
                                     <a style="padding: 0 0 18px 0; color: #ffffff" class="nav-link active"
                                         aria-current="page" href="#">Home</a>
@@ -894,7 +893,7 @@
                                         aria-current="page" href="#">Shop</a>
                                 </li>
 
-                                <div style="margin-left: 10px">
+                                <div class="secondNavbar-div" style="margin-left: 10px">
                                     <i style="
                       font-size: 20px;
                       margin: 3px 0 0 25px;
@@ -909,9 +908,31 @@
         </div>
 
 
+        <div class="main-scroll-navbar" >
 
+           <div onclick="closeSideBar()"  style="margin-bottom: 8px;" class="d-flex align-items-center"><i style="font-size: 24px;color:#979797;margin-left: 16px;" class="fa-sharp fa-solid fa-xmark"></i></div> 
+           <ul class="scroll-navbar-ul">
+            <li><a style="color: #FFFFFF;" href="">HOME</a></li>
+            <li><a href="">ABOUT</a></li>
+            <li><a href="">SERVİCES</a></li>
+            <li><a href="">PORTFOLIO</a></li>
+            <li><a href="">BLOG</a></li>
+            <li><a href="">SHOP</a></li>
+           </ul>
+        </div>
         
     </div>
+
+    <!-- <div class="bg-color">
+        <div class="box first-box">
+            <div class="center">
+                <a href="#">ease (default)</a>
+            </div>
+        </div>
+    </div> -->
+
+
+
     <script src="js.js"></script>
 </body>
 
