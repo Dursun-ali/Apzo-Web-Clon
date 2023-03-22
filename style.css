@@ -41,6 +41,44 @@ body {
     color: #FFFFFF;
     /* position: relative; */
 }
+.navbar-nav li a{
+    display: inline-block;
+    position: relative;
+}
+
+/* .navbar-nav li a::before{
+content:"";
+position: absolute;
+top: 2rem;
+left: 0;
+bottom: 0;
+width: 0;
+height: 2.5px;
+background-color:gainsboro;
+transition: width 0.1s ease-out;
+}
+
+.navbar-nav :hover::before{
+width: 100%;
+}; */
+#home,
+.navbar-nav li a:hover {
+    transition: 0.1s ease;
+    border-bottom: 3px solid white ;
+}
+.navbar-nav li a {
+    border-bottom: 3px solid transparent;
+}
+.acordion-icons{
+    position: relative;
+    width: 25px;
+    height: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
 
 .main-section-container {
     background: url("https://a6e8z9v6.stackpathcdn.com/apzo/mobileapp/wp-content/uploads/sites/7/2019/09/bg-mb-1.jpg");
@@ -54,6 +92,7 @@ body {
 }
 
 /* icon title start */
+
 .main-icon-box {
     width: 97.2%;
     margin: 0 auto;
