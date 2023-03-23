@@ -46,8 +46,9 @@ document.getElementById(id).setAttribute('disabled','true');
 
 function isActive(id) {
   document.getElementById(id).classList.add('navActive');
-  if(!(id == 'nav-item-0'||'nav-item-00')) {
+  if(!(id == 'nav-item-0'|| id== 'nav-item-00')) {
     document.getElementById('nav-item-0').classList.remove('navActive');
+    document.getElementById('nav-item-00').classList.remove('navActive');
   }
 }
 
