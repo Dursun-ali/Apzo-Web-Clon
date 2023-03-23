@@ -36,6 +36,7 @@ body {
   color: #ffffff;
   /* position: relative; */
 }
+
 .navbar-nav li a {
   display: inline-block;
   position: relative;
@@ -72,10 +73,13 @@ width: 100%;
   justify-content: center;
   align-items: center;
 }
-
+.newest-main-wrapper{
+  padding: 225px 0 80px 0;
+}
 .main-section-container {
   background: url("https://a6e8z9v6.stackpathcdn.com/apzo/mobileapp/wp-content/uploads/sites/7/2019/09/bg-mb-1.jpg");
   background-size: 100% 100%;
+  padding: 160px 0;
 }
 
 .section-container {
@@ -146,7 +150,9 @@ width: 100%;
 .firstSection-box {
   padding: 0px 20px 30px 20px;
 }
-
+.apzosial-div{
+  padding: 140px 0 0 0;
+}
 .section-H3 {
   font-size: 80px;
   font-weight: 700;
@@ -179,7 +185,6 @@ width: 100%;
 .newest-main-section {
   padding: 0 20px;
 }
-
 .newest-section {
   width: 87%;
   margin: 0 auto;
@@ -212,6 +217,9 @@ width: 100%;
   font-size: 17px;
   color: #6f6f6f;
   margin: 0;
+}
+.newest-link-button-div{
+  padding: 0 20px 30px 20px
 }
 
 .newest-link-button {
@@ -258,7 +266,13 @@ width: 100%;
   font-size: 23px;
   color: #353535;
 }
-
+.features-H3-div{
+  padding: 0 20px 50px;
+}
+.features-P{
+  margin-bottom: 20px;
+   font-size: 17px;
+  }
 /* Featurs Section End  */
 
 /* Counter Section Start */
@@ -315,6 +329,7 @@ width: 100%;
   background: url(https://a6e8z9v6.stackpathcdn.com/apzo/mobileapp/wp-content/uploads/sites/7/2019/09/bg-mb-service-3.jpg);
   background-position-x: 50%;
   background-position-y: 35%;
+  padding: 320px 0 130px;
 }
 
 .down-counter-section {
@@ -341,6 +356,11 @@ width: 100%;
   background: url(https://a6e8z9v6.stackpathcdn.com/apzo/mobileapp/wp-content/uploads/sites/7/2019/09/bg-mb-ac.jpg);
   background-size: cover;
 }
+.acordion-section-H3-div{
+  padding: 0 20px 50px;
+}
+
+
 
 .acordion-section {
   width: 87%;
@@ -406,7 +426,9 @@ width: 100%;
 .main-updated-section {
   padding: 50px 0 0;
 }
-
+.updated-H3-div{
+  padding: 0 20px 40px;
+}
 .updatet-H3 {
   font-size: 38px;
   color: #353535;
@@ -847,6 +869,254 @@ width: 100%;
     display: none;
     width: 220px !important;
   }
+  .apzosial-div{
+    padding: 80px 0 0 0;
+  }
+.main-pricing-section {
+  padding: 60px 0  20px 0;
+}
+  .newest-main-wrapper{
+    padding: 50px 0 20px 0;
+  }
+  .newest-section {
+    width: 87%;
+    padding: 0 20px;
+  }
+
+  .newest-div {
+    margin:  0;
+    padding: 0 0 30px;
+  }
+  .newestImgAndWrite {
+    padding: 0 14px 28px 14px;
+  }
+  .newest-H3 {
+    font-size: 24px;
+    font-weight: 700;
+    color: #353535;
+    padding: 0 14px 28px 14px;
+    margin: 0;
+  }
+  .newest-second-H3 {
+    font-size: 20px;
+    color: #383838;
+    font-weight: 700;
+  }
+  .newest-P {
+    font-size: 14px;
+    color: #6f6f6f;
+    margin: 0;
+  }
+  .newest-link-button-div{
+    padding: 0 8px 18px 8px;
+  }
+  .newest-link-button {
+    font-weight: 500;
+    background-color: #484ded;
+    border-radius: 40px;
+    border: none;
+    padding: 10px 26px 15px 26px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  }
+
+  .section-H3 {
+    font-size: 24px;
+    font-weight: 700;
+    margin: 0;
+    padding: 0 14px 28px 14px;
+    color: #ffffff;
+  }
+  .section-P1 {
+    margin: 0;
+    font-size: 14px;
+    font-weight: 500;
+    padding: 0 14px 28px 14px;
+    color: #ffffff;
+    font-family: "Jost", sans-serif;
+  }
+
+  .features-section {
+    width: 87%;
+    padding: 0 20px;
+  }
+  .features-col-7 {
+    padding-top: 32px;
+  }
+
+  .features-H3 {
+    font-size: 24px;
+    color: #353535;
+    margin: 0;
+    font-weight: 700;
+  }
+  .features-H3-div{
+    padding: 0 12px 24px;
+  }
+
+  .features-second-H3 {
+    font-size: 20px;
+    color: #353535;
+  }
+  .features-P{
+    margin-bottom: 20px;
+     font-size: 14px;
+    }
+  .main-counter-section {
+    padding: 10px 0;
+    height: 1000px;
+  }
+
+  .uptated-section {
+    width: 87%;
+    margin: 0 auto;
+    padding: 0 20px;
+  }
+
+
+  .counter-section-div {
+    position: absolute;
+    right: 65.05px;
+    left: 65.05px;
+    z-index: 9999;
+    border-radius: 15px;
+  }
+  .counter-section {
+    width: 87%;
+    margin: 0 auto;
+    padding: 0 20px;
+    height: 1000px;
+  }
+
+  .counter-span-1 {
+    font-size: 38px;
+    font-weight: 700;
+  }
+
+  .counter-span-2 {
+    font-size: 38px;
+    font-weight: 700;
+  }
+
+  .counter-write {
+    color: #3c73f0;
+    font-weight: 700;
+    font-size: 18px;
+  }
+  .main-down-counter-section {
+    padding: 160px 0 30px;
+  }
+  
+  .down-counter-section {
+    width: 87%;
+    margin: 0 auto;
+  }
+.main-acordion-section {
+  padding: 50px 0 20px;
+}
+  .acordion-section {
+    width: 87%;
+    margin: 0 auto;
+    padding: 0 20px;
+  }
+  .acordion-section-H3 {
+    font-size: 24px;
+    color: #353535;
+  }
+  .acordion-section-H3-div{
+    padding: 0 8px 16px;
+  }
+  .accordion-button:focus {
+    z-index: 3;
+    /* border-color: #86b7fe; */
+    outline: 0;
+    box-shadow: none !important;
+  }
+  
+  .accordion-button:not(.collapsed) {
+    font-weight: 700;
+    font-size: 20px;
+    color: #2653e3 !important;
+    background-color: #ffffff !important;
+    box-shadow: none !important;
+  }
+
+  .accordion-body{
+    font-size: 14px !important;
+  }
+  .accordion-button {
+    font-weight: 700 !important;
+    font-size: 14px !important;
+    position: relative;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    padding: 1rem 1.25rem;
+    font-size: 1rem;
+    color: #2653e3 !important;
+    text-align: left;
+    background-color: #fff;
+    border: 0;
+    border-radius: 0;
+    overflow-anchor: none;
+    transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out,
+      border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out,
+      border-radius 0.15s ease;
+  }
+
+
+
+  .pricing-section {
+    width: 87%;
+    margin: 0 auto;
+    padding: 0 20px;
+  }
+
+  .articles-section {
+    width: 87%;
+    margin: 0 auto;
+    padding: 0 20px;
+  }
+
+  .pricing-div {
+    margin-bottom: 48px;
+  }
+
+  .footer-section {
+    width: 70%;
+    margin: 0 auto;
+    padding: 0 20px;
+  }
+  .down-counter-H3 {
+    font-size: 20px;
+    color: #ff8585;
+  }
+
+  .down-counter-P {
+    font-size: 14px;
+    color: #ffffff;
+  }
+.updated-H3-div{
+  padding: 0 12px 24px;
+  }
+.updatet-H3 {
+  font-size: 24px;
+  color: #353535;
+  margin: 0;
+  font-weight: 700;
+}
+
+.updated-P {
+  color: #9d9d9d;
+  font-size: 14px;
+  margin: 0;
+}
+.main-section-container {
+  padding: 60px 0;
+}
+
+
+
+
 }
 
 /* modal yapımızın css kodları */
