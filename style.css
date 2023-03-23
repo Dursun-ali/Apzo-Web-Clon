@@ -703,7 +703,9 @@ width: 100%;
     font-weight: 700;
     font-size: 12px;
   }
-
+  .bar-icon-1 {
+    margin-right: 0px !important;
+  }
   .down-counter-H3 {
     font-size: 21px;
     color: #ff8585;
